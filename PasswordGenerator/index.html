@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+ </head>
+    <body>
+        <div class="main-container">
+            <h1>Generate a <span>random password</span></h1>
+            <p>Never use an insecure password again.</span></p>
+        </div>
+
+        <div class="input-container">
+            <div class="password-input">
+                <label class="password-lb" for="password-txt">Password Length </label>
+                <input class="password-txt" type="number"  value="15" max="20">
+            </div>
+            <div class="checkbox-input">
+                <input class="number-checkbox" type="checkbox">
+                <label for="number-checkbox" class="number-lb">Exclude Number</label>
+                <input class="character-checkbox" type="checkbox">
+                <label for="character-checkbox" class="character-lb">Exclude Character</label>
+            
+            </div>
+
+            <div class="button-input">
+                <button class="generate-btn" onclick="generatePassword()">Generate passwords</button>
+            </div>
+
+        </div>
+
+        <div class="section-container"></div>
+
+        <div class="password-container">
+            <p class="password-one-el"></p>
+            <button class="copy-btn" onclick="copyPasswordOne()">Copy</button>
+            <p class="password-two-el"></p>
+            <button class="copy-btn" onclick="copyPasswordTwo()">Copy</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

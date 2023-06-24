@@ -1,0 +1,56 @@
+body{
+    background: url(images/images.jpg) no-repeat center center fixed; ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+
+}
+
+#increment-btn{
+
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    padding: 10px 60px;
+    border-radius: 6%;
+    background-color: rgb(145, 11, 11);
+    border: none;
+    width: 200px;
+
+}
+
+
+button{
+    font-weight: bold;
+    color: white;
+    font-size: medium;
+    padding: 10px 60px;
+    width: 200px;
+}
+
+
+#increment-btn{
+   
+    background-color: rgb(5, 77, 115);
+}
+
+
+#save-btn{
+    background-color: rgb(8, 107, 8);
+    border: none;
+}
+
+#save-el{
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+}
+
+h1,h2{
+    
+    text-shadow: 0 0 5px black;
+}
+
